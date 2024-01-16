@@ -49,6 +49,7 @@
 .logo-container {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 .logo-container h1 {
   color: #131318;
@@ -196,7 +197,7 @@ button {
   height: 100%;
 }
 /* Destination section */
-.grid-imgages {
+.grid-images {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -370,6 +371,7 @@ button {
   justify-content: left;
   margin-bottom: 26px;
 }
+
 /* video-section */
 .video-section-text li {
   color: #131318;
@@ -476,7 +478,7 @@ button {
 .newsletter-input {
   border-radius: 16px;
   border: 1px solid #ff5400;
-  width: 45%;
+  width: 70%;
 }
 .newsletter-input h1 {
   text-align: start;
@@ -508,9 +510,19 @@ button {
   background: url("../Images/image-10.png"), lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 100%; */
+  width: 100%;
   min-height: 422px;
-  min-width: 672px;
+  /* min-width: 672px; */
+  position: relative;
+}
+.newsletter-img {
+  border-radius: 16px;
+  background: url("../Images/image-10.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 422px;
+  /* min-width: 672px; */
   position: relative;
 }
 .discount {
