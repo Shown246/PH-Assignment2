@@ -134,6 +134,7 @@
   font-size: 16px;
   font-weight: 400;
   cursor: pointer;
+  background: #fff;
 }
 button {
   border-radius: 8px;
@@ -310,6 +311,11 @@ button {
   background: rgba(233, 68, 68, 0.05);
 }
 
+/* deals-section */
+.deal-card{
+  border-radius: 16px;
+background: url('../Images/image-2.png'), lightgray 50% / cover no-repeat;
+}
 /* video-section */
 .video-section-text li {
   color: #131318;
@@ -344,17 +350,17 @@ button {
 }
 
 /* Bonus: Review_section */
-.overall-rating{
+.overall-rating {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.overall-rating .rating{
+.overall-rating .rating {
   margin-bottom: 0;
   padding-top: 10px;
 }
-.overall-rating .rating img{
+.overall-rating .rating img {
   width: 200%;
 }
 .review-grid {
@@ -368,7 +374,7 @@ button {
   max-width: 400px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+  background-color: rgba(251, 181, 99, 0.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
   border-radius: 8px;
 }

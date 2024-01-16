@@ -179,6 +179,9 @@
     font-size: 22px;
   }
   /* Footer  */
+  .footer {
+    margin-bottom: 0;
+  }
   .footer-text{
     width: 100%;
   }
