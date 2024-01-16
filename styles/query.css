@@ -53,26 +53,32 @@
   }
 
   /* Popular-tour */
-  .Popular-tour, .video-section {
+  .Popular-tour,
+  .video-section {
     flex-direction: column;
     margin-bottom: 30px;
   }
-  .section-dis, .video-section-text {
+  .section-dis,
+  .video-section-text {
     width: 100%;
   }
-  .section-dis h1, .video-section-text h1 {
+  .section-dis h1,
+  .video-section-text h1 {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  .section-dis p, .video-section-text p {
+  .section-dis p,
+  .video-section-text p {
     font-size: 14px;
     margin-bottom: 20px;
   }
-  .section-dis li, .video-section-text li {
+  .section-dis li,
+  .video-section-text li {
     font-size: 14px;
     margin-bottom: 12px;
   }
-  .section-dis button, .video-section-text button {
+  .section-dis button,
+  .video-section-text button {
     margin-top: 30px;
     margin-bottom: 26px;
   }
@@ -119,17 +125,45 @@
   .grid-1 {
     grid-area: 1 / 1 / 2 / 2;
   }
-  
+
   .grid-2 {
     grid-area: 2 / 1 / 3 / 2;
   }
-  
+
   .grid-3 {
     grid-area: 3 / 1 / 4 / 2;
   }
 
+  /* deals-section */
+  .deal-card, .deal-card-2 {
+    width: 100%;
+    height: 500px;
+    align-items: end;
+    background-position: center;
+  }
+  .card-main {
+    width: auto;
+    height: 297px;
+    padding: 16px;
+    margin: 16px;
+  }
+  .card-top{
+    flex-wrap: wrap;
+  }
+  .card-heading{
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .card-des{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .card-price{
+    margin-top: 12px;
+    margin-bottom: 16px;
+  }
   /* video-section */
-  .video-section-img{
+  .video-section-img {
     min-width: 90%;
   }
   .video-section-img-text h1 {
@@ -140,7 +174,7 @@
     padding-top: 150px;
     margin: 0 auto 150px auto;
   }
-  .video-section-img-controls img{
+  .video-section-img-controls img {
     width: 97%;
     padding-left: 20px;
   }
@@ -152,7 +186,7 @@
     justify-content: center;
     padding: 20px;
   }
-  .review-card{
+  .review-card {
     margin: 10px auto;
     padding: 10px;
   }
@@ -164,7 +198,7 @@
   .newsletter-input {
     width: 100%;
   }
-  .newsletter-img{
+  .newsletter-img {
     min-width: 100%;
   }
   .discount {
@@ -182,8 +216,7 @@
   .footer {
     margin-bottom: 0;
   }
-  .footer-text{
+  .footer-text {
     width: 100%;
   }
-
 }

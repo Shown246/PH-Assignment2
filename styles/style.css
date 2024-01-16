@@ -276,14 +276,16 @@ button {
 .description-grid img {
   margin-bottom: 32px;
 }
-.description-grid h1 {
+.description-grid h1,
+.card-heading {
   margin-bottom: 18px;
   color: #131318;
   font-family: Mulish;
   font-size: 24px;
   font-weight: 800;
 }
-.description-grid p {
+.description-grid p,
+.card-des {
   color: #5a5a5d;
   font-family: Mulish;
   font-size: 16px;
@@ -312,9 +314,61 @@ button {
 }
 
 /* deals-section */
-.deal-card{
+.deal-card {
   border-radius: 16px;
-background: url('../Images/image-2.png'), lightgray 50% / cover no-repeat;
+  background: url("../Images/image-2.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 26px;
+}
+.card-main {
+  width: 579px;
+  height: 389px;
+  padding: 50px;
+  margin: 56px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+}
+.card-top {
+  display: flex;
+  gap: 26px 16px;
+  margin-bottom: 26px;
+}
+.card-top-element {
+  display: flex;
+  height: 24px;
+  gap: 5px;
+}
+.card-top-element p {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.card-price {
+  margin-top: 20px;
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 26px;
+}
+.card-btn{
+  font-weight: 800;
+}
+.deal-card-2 {
+  border-radius: 16px;
+  background: url("../Images/image-3.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 26px;
 }
 /* video-section */
 .video-section-text li {
